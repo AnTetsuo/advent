@@ -1,18 +1,6 @@
-defmodule Advent do
-  @moduledoc """
-  Documentation for `Advent`.
-  """
+defmodule AOC do
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Advent.hello()
-      :world
-
-  """
-  def hello do
-    DayOne.input()
+  def run do
+    DayOne.part_one()
   end
 end
