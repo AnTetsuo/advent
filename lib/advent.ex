@@ -1,5 +1,5 @@
 defmodule AOC do
   def run do
-    DayOne.part_two()
+    DayTwo.part_one()
   end
 end
